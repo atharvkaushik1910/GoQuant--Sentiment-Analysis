@@ -107,7 +107,7 @@
         }
       ],
       "source": [
-        "!pip install pandas snscrape praw newsapi-python yfinance\n",
+        "pip install pandas snscrape praw newsapi-python yfinance\n",
         "\n",
         "import praw\n",
         "\n",
