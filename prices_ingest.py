@@ -94,7 +94,7 @@
       ],
       "source": [
         "# Stock & Crypto Prices (via yFinance)\n",
-        "!pip install pandas snscrape praw newsapi-python yfinance\n",
+        "pip install pandas snscrape praw newsapi-python yfinance\n",
         "\n",
         "import yfinance as yf\n",
         "\n",
