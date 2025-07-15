@@ -1,1 +1,7 @@
+pandas
+snscrape
+praw
+newsapi-python
+yfinance
+tweepy
 
