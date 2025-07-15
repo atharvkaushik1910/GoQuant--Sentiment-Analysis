@@ -59,7 +59,7 @@
         }
       ],
       "source": [
-        "!pip install tweepy pandas"
+        "pip install tweepy pandas"
       ]
     },
     {
