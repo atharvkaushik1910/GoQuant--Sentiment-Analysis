@@ -92,7 +92,7 @@
       ],
       "source": [
         "# News Headlines (via NewsAPI)\n",
-        "!pip install pandas snscrape praw newsapi-python yfinance\n",
+        "pip install pandas snscrape praw newsapi-python yfinance\n",
         "\n",
         "from newsapi import NewsApiClient\n",
         "\n",
