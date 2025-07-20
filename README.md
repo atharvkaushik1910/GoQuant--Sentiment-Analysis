@@ -75,3 +75,13 @@ This will trigger:
 - **Price data collection**
 
 All results will be saved as CSVs in the **/data folder**.
+
+### 3. Fetch Data
+Fetch tweets, reddit posts & comments, news articles, and asset price data:
+```
+python ingestion/fetch_tweets.py
+python ingestion/fetch_reddit.py
+python ingestion/fetch_news.py
+python ingestion/fetch_prices.py
+
+```
