@@ -135,6 +135,7 @@ python analysis/generate_signals.py
 
 -**Confidence score**
 
+
 ## Assets Covered
 -**Bitcoin (BTC-USD)**
 
@@ -145,3 +146,14 @@ python analysis/generate_signals.py
 -**Apple (AAPL)**
 
 -**Tesla (TSLA)**
+
+
+## Future Work
+-**Integrate real-time data streaming**
+
+-**Enhance sentiment models with advanced NLP (e.g., sarcasm detection)**
+
+-**Implement backtesting on historical data**
+
+-**Build visualization dashboards**
+
