@@ -137,7 +137,11 @@ python analysis/generate_signals.py
 
 ## Assets Covered
 -**Bitcoin (BTC-USD)**
+
 -**Ethereum (ETH-USD)**
+
 -**Solana (SOL-USD)**
+
 -**Apple (AAPL)**
+
 -**Tesla (TSLA)**
