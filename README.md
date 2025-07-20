@@ -117,3 +117,27 @@ python analysis/correlate_sentiment_price.py
 python analysis/generate_signals.py
 
 ```
+
+## Outputs
+-**Fear & Greed Index:** Console output from ```aggregate_sentiment.py```
+
+-**Correlation Metrics:** data/sentiment_price_correlation.csv
+
+-**Trade Signals:** Console output from generate_signals.py showing:
+
+-**Latest sentiment score**
+
+-**Latest price % change**
+
+-**Correlation value**
+
+-**Generated trading signal (BUY / SELL / HOLD)**
+
+-**Confidence score**
+
+## Assets Covered
+-**Bitcoin (BTC-USD)**
+-**Ethereum (ETH-USD)**
+-**Solana (SOL-USD)**
+-**Apple (AAPL)**
+-**Tesla (TSLA)**
