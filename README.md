@@ -93,6 +93,8 @@ python ingestion/fetch_prices.py
 ```
 
 ### 4. Sentiment Analysis
+Analyze the sentiment of the collected data using FinBERT
+
 Run sentiment analysis on the fetched data:
 ```
 python analysis/analyze_tweets.py
@@ -100,11 +102,22 @@ python analysis/analyze_reddit.py
 python analysis/analyze_news.py
 
 ```
+Outputs:
+
+```data/tweets_sentiment.csv```
+
+```data/reddit_sentiment.csv```
+
+```data/news_sentiment.csv```
 
 ### 5. Aggregate Sentiments & Calculate Fear/Greed Index
+Combine all sentiment data sources into a single Fear & Greed Index:
 ```
 python analysis/aggregate_sentiment.py
 ```
+Output:
+
+Console output showing index value and market mood: Fearful / Neutral / Greedy.
 
 ### 6. Preprocess Market Price Data
 ```
@@ -113,16 +126,34 @@ python analysis/preprocess_prices.py
 ```
 
 ### 7. Correlate Sentiment with Price Changes
+Correlate the overall sentiment score with the % price changes to understand predictive power:
 ```
 python analysis/correlate_sentiment_price.py
 
 ```
+Output:
+
+```data/sentiment_price_correlation.csv```
+It includes the correlation coefficient for each asset (BTC, ETH, etc.)
 
 ### 8. Generate Trade Signals
 ```
 python analysis/generate_signals.py
 
 ```
+Output:
+
+Console shows:
+
+-Latest Sentiment
+
+-Latest Price Change
+
+-Sentiment-Price Correlation
+
+-Trade Signal (BUY / SELL / HOLD)
+
+-Confidence Score
 
 ## Outputs
 -**Fear & Greed Index:** Console output from ```aggregate_sentiment.py```
