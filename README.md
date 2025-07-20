@@ -66,10 +66,10 @@ python main.py
 ```
 This will trigger:
 
--Tweets scraping
+- **Tweets scraping**
 
--Reddit scraping
+- **Reddit scraping**
 
--News API fetching
+- **News API fetching**
 
--Price data collection
+- **Price data collection**
