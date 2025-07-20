@@ -64,3 +64,9 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+This will trigger:
+
+-Tweets scraping
+-Reddit scraping
+-News API fetching
+-Price data collection
