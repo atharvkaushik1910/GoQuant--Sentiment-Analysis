@@ -85,3 +85,12 @@ python ingestion/fetch_news.py
 python ingestion/fetch_prices.py
 
 ```
+
+### 4. Sentiment Analysis
+Run sentiment analysis on the fetched data:
+```
+python analysis/analyze_tweets.py
+python analysis/analyze_reddit.py
+python analysis/analyze_news.py
+
+```
