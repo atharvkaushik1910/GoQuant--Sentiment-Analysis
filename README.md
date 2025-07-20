@@ -9,7 +9,13 @@ This project implements a **Real-Time Sentiment Analysis and Trading Signal Gene
 - **Financial News**
 - **Market Price Data (Crypto, Stocks)**
 
+We use the **FinBERT** model, a pre-trained financial domain-specific BERT variant, for sentiment analysis.  
+FinBERT specializes in identifying **Positive**, **Negative**, and **Neutral** sentiments in financial texts, enabling us to:
+- **Score** each text (tweet, reddit post, news article) on a compound sentiment scale (-1 to +1).
+- Aggregate these scores across sources to derive an overall **Fear & Greed Index**.
+
 The system calculates a **Fear & Greed Index**, correlates sentiment with asset prices, and generates actionable **Buy, Sell, or Hold signals** with confidence scoring.
+
 
 ---
 
@@ -157,3 +163,6 @@ python analysis/generate_signals.py
 
 -**Build visualization dashboards**
 
+
+## Author
+Developed as part of GoQuant's Backend Sentiment Engine Assignment.
