@@ -94,3 +94,26 @@ python analysis/analyze_reddit.py
 python analysis/analyze_news.py
 
 ```
+
+### 5. Aggregate Sentiments & Calculate Fear/Greed Index
+```
+python analysis/aggregate_sentiment.py
+```
+
+### 6. Preprocess Market Price Data
+```
+python analysis/preprocess_prices.py
+
+```
+
+### 7. Correlate Sentiment with Price Changes
+```
+python analysis/correlate_sentiment_price.py
+
+```
+
+### 8. Generate Trade Signals
+```
+python analysis/generate_signals.py
+
+```
