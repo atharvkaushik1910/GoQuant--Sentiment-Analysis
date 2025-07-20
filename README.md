@@ -73,3 +73,5 @@ This will trigger:
 - **News API fetching**
 
 - **Price data collection**
+
+All results will be saved as CSVs in the **/data folder**.
