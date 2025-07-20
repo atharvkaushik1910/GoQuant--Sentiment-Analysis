@@ -186,13 +186,13 @@ Console shows:
 
 
 ## Future Work
--**Integrate real-time data streaming**
+-**Deploy deep learning models like LSTM/GRU for sentiment trend prediction.**
 
--**Enhance sentiment models with advanced NLP (e.g., sarcasm detection)**
+-**Enhance NLP pipeline to detect sarcasm, irony, or complex financial jargon**
 
--**Implement backtesting on historical data**
+-**Introduce position sizing and portfolio risk management algorithms.**
 
--**Build visualization dashboards**
+-**Build a dashboard (using Plotly/Dash) to visualize sentiment trends, price movements, and signals live.**
 
 
 ## Author
